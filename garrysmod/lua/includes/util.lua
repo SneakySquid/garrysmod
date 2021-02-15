@@ -364,6 +364,10 @@ function Either( iff, aa, bb )
 	return bb
 end
 
+function Neither( iff, aa, bb )
+	return not Either( iff, aa, bb )
+end
+
 --
 -- You can use this function to add your own CLASS_ var.
 -- Adding in this way will ensure your CLASS_ doesn't collide with another
